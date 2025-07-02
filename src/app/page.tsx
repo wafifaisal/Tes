@@ -814,15 +814,15 @@ const GirlfriendHappyApp = () => {
             ) : (
               <>
                 {noClickCount === 0 ? (
-                  <p>Klik "No" berapa kali pun, jawabannya tetap sama kok 😉</p>
+                  <p>Klik No berapa kali pun, jawabannya tetap sama kok 😉</p>
                 ) : (
-                  <p>Udah {noClickCount} kali bilang "No" nih 😏</p>
+                  <p>Udah {noClickCount} kali bilang No nih 😏</p>
                 )}
 
                 {noClickCount > 0 && (
                   <div className="mt-4 p-3 bg-blue-500/20 rounded-xl border border-blue-300/30">
                     <p className="text-blue-200 text-xs">
-                      💡 Psst... tombol "YES" nya makin gede loh!
+                      💡 Psst... tombol YES nya makin gede loh!
                     </p>
                   </div>
                 )}
